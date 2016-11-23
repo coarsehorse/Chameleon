@@ -16,5 +16,6 @@ Person *first, *last;
 void _init_();
 void add(char *f_name, int age, bool h_edu);
 void print();
+void free_mem(Person *start);
 
-#endif
+#endif // DB_WRAPPER
