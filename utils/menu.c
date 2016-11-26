@@ -22,7 +22,7 @@ short int menu()
     switch(ans)
     {
     case 1:
-        printf("1 Under construction...\n\n");
+        input();
         break;
     case 2:
         print();
@@ -33,7 +33,7 @@ short int menu()
     case 0:
         return 1;
     default:
-        printf("ERROR! def is working\n\n");
+        printf("ERROR! default is working\n\n");
     }
 
     system("pause");

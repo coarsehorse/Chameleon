@@ -15,6 +15,7 @@ void add(char *f_name, int age, bool h_edu)
         last->next = malloc(sizeof(Person));
         last = last->next;
     }
+    length++;
     strcpy(last->full_name, f_name);
     last->age = age;
     last->higher_edu = h_edu;

@@ -5,4 +5,5 @@ void _init_()
 {
     first = NULL;
     last = NULL;
+    length = 0;
 }

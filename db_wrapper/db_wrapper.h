@@ -12,6 +12,7 @@ typedef struct Person {
 } Person;
 
 Person *first, *last;
+int length;
 
 void _init_();
 void add(char *f_name, int age, bool h_edu);
